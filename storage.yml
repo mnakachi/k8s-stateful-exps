@@ -29,7 +29,7 @@ spec:
     - metadata:
         name: data
       spec:
-        storageClassName: default
+        storageClassName: cloud-ssd
         accessModes:
           - ReadWriteOnce
         resources:
