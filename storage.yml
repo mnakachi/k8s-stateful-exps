@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
- # serviceName: "nginx"
+  serviceName: "nginx"
   template:
     metadata:
       labels:
